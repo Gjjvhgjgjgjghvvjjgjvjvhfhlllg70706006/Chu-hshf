@@ -1,0 +1,1437 @@
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+
+Xvnc TigerVNC 1.12.0 - built 2022-03-25 17:06
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101003, X.Org
+
+
+Thu Jun  2 06:14:18 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'kali:1 (kali)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /home/kali/.vnc/passwd :1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86EmojiPicker
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 3
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+gpg-agent[21000]: directory '/home/kali/.gnupg' created
+gpg-agent[21000]: directory '/home/kali/.gnupg/private-keys-v1.d' created
+gpg-agent[21001]: gpg-agent (GnuPG) 2.2.35 started
+
+(xfwm4:21002): GLib-CRITICAL **: 06:14:26.429: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfwm4:21002): xfwm4-WARNING **: 06:14:27.657: Another compositing manager is running on screen 0
+
+(xfsettingsd:21038): libupower-glib-WARNING **: 06:14:27.748: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfsettingsd:21038): GLib-CRITICAL **: 06:14:27.798: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:21038): GLib-GObject-CRITICAL **: 06:14:27.833: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+WARNING: unable to read /proc/cmdline and detect noautomount option
+
+** (xfce4-power-manager:21061): WARNING **: 06:14:29.143: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:21061): WARNING **: 06:14:29.150: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (light-locker:21067): ERROR **: 06:14:29.170: session_id is not set, is /proc mounted with hidepid>0?
+
+** (xiccd:21086): CRITICAL **: 06:14:29.234: Failed to connect to colord: Could not connect: No such file or directory
+
+(polkit-gnome-authentication-agent-1:21076): polkit-gnome-1-WARNING **: 06:14:29.296: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:21061): xfce4-power-manager-WARNING **: 06:14:29.372: Monitor is not DPMS capable
+
+(xfce4-power-manager:21061): GLib-GIO-CRITICAL **: 06:14:29.378: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(xfce4-power-manager:21061): libupower-glib-WARNING **: 06:14:29.624: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(nm-applet:21072): nm-applet-WARNING **: 06:14:29.706: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:21072): nm-applet-WARNING **: 06:14:29.708: Could not connect: No such file or directory
+
+(xfce4-power-manager:21061): xfce4-power-manager-CRITICAL **: 06:14:29.739: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:21061): xfce4-power-manager-CRITICAL **: 06:14:29.740: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:21061): xfce4-power-manager-CRITICAL **: 06:14:29.741: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:21061): xfce4-power-manager-WARNING **: 06:14:29.753: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:21061): xfce4-power-manager-WARNING **: 06:14:29.755: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:21061): WARNING **: 06:14:29.755: No outputs have backlight property
+
+** (xfpm-power-backlight-helper:21118): WARNING **: 06:14:29.766: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:21061): xfce4-power-manager-CRITICAL **: 06:14:29.768: Unable to get system bus connection : Could not connect: No such file or directory
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 43, in <module>
+    app = BluemanApplet()
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 24, in __init__
+    self.Manager = Manager()
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 28, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+libpager-Message: 06:14:31.218: Setting the pager rows returned false. Maybe the setting is not applied.
+xfce4-panel-Message: 06:14:31.290: Plugin "(null)-16" was not found and has been removed from the configuration
+xfce4-panel-Message: 06:14:31.304: Plugin "(null)-18" was not found and has been removed from the configuration
+
+(wrapper-2.0:21144): GLib-GIO-CRITICAL **: 06:14:31.826: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:21144): GLib-GIO-CRITICAL **: 06:14:31.827: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:21144): GLib-GObject-WARNING **: 06:14:31.827: invalid (NULL) pointer instance
+
+(wrapper-2.0:21144): GLib-GObject-CRITICAL **: 06:14:31.827: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:21144): Gtk-WARNING **: 06:14:31.828: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:21057): Gtk-WARNING **: 06:14:31.858: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfce4-session:20958): xfce4-session-WARNING **: 06:14:31.884: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:20958): xfce4-session-WARNING **: 06:14:31.936: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:20958): xfce4-session-WARNING **: 06:14:31.973: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:21144): Gtk-WARNING **: 06:14:31.977: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(nm-applet:21072): nm-CRITICAL **: 06:14:31.977: ((src/libnm-client-impl/nm-client.c:4095)): assertion '<dropped>' failed
+
+(nm-applet:21072): nm-CRITICAL **: 06:14:31.978: ((src/libnm-client-impl/nm-client.c:4049)): assertion '<dropped>' failed
+
+(nm-applet:21072): nm-CRITICAL **: 06:14:32.180: ((src/libnm-client-impl/nm-client.c:4908)): assertion '<dropped>' failed
+
+(xfdesktop:21054): GVFS-RemoteVolumeMonitor-WARNING **: 06:14:33.319: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:21054): WARNING **: 06:14:34.155: Failed to get system bus: Could not connect: No such file or directory
+
+Thu Jun  2 06:15:54 2022
+ Connections: accepted: 127.0.0.1::56128
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Jun  2 06:15:59 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 6 (8bpp) rgb222
+
+Thu Jun  2 06:16:38 2022
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+(xfce4-panel:21041): Gtk-WARNING **: 06:17:18.644: no trigger event for menu popup
+
+(xfce4-panel:21041): Gtk-WARNING **: 06:17:22.112: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(Thunar:21045): GVFS-RemoteVolumeMonitor-WARNING **: 06:18:43.375: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+[Parent 23782, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=2.14354) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=2.14354) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=2.14371) [GFX1-]: glxtest: process failed (received signal 11)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.756403) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23782, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=2.67974) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+_XSERVTransmkdir: Owner of /tmp/.X11-unix should be set to root
+
+Xvnc TigerVNC 1.12.0 - built 2022-03-25 17:06
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101003, X.Org
+
+
+Thu Jun  2 06:30:23 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'kali:1 (kali)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /home/kali/.vnc/passwd :1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86EmojiPicker
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 3
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfwm4:29947): xfwm4-WARNING **: 06:30:26.297: Unsupported GL renderer (llvmpipe (LLVM 13.0.1, 128 bits)).
+
+(xfsettingsd:29982): libupower-glib-WARNING **: 06:30:26.431: Couldn't connect to proxy: Could not connect: No such file or directory
+libpager-Message: 06:30:27.046: Setting the pager rows returned false. Maybe the setting is not applied.
+
+(wrapper-2.0:30006): GLib-GIO-CRITICAL **: 06:30:27.722: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:30006): GLib-GIO-CRITICAL **: 06:30:27.722: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:30006): GLib-GObject-WARNING **: 06:30:27.723: invalid (NULL) pointer instance
+
+(wrapper-2.0:30006): GLib-GObject-CRITICAL **: 06:30:27.723: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:30006): Gtk-WARNING **: 06:30:27.724: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:29999): Gtk-WARNING **: 06:30:27.825: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfce4-session:29901): xfce4-session-WARNING **: 06:30:27.858: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:29901): xfce4-session-WARNING **: 06:30:27.917: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:30006): Gtk-WARNING **: 06:30:27.949: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfce4-session:29901): xfce4-session-WARNING **: 06:30:27.954: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+WARNING: unable to read /proc/cmdline and detect noautomount option
+
+** (xfce4-power-manager:30045): WARNING **: 06:30:28.228: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:30045): WARNING **: 06:30:28.232: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (light-locker:30052): ERROR **: 06:30:28.319: session_id is not set, is /proc mounted with hidepid>0?
+Added OpenSC smartcard framework (0.22) to /home/kali/.mozilla/firefox/5rkq81e6.default-esr/pkcs11.txt
+
+** (xiccd:30072): CRITICAL **: 06:30:28.422: Failed to connect to colord: Could not connect: No such file or directory
+
+(polkit-gnome-authentication-agent-1:30067): polkit-gnome-1-WARNING **: 06:30:28.436: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:30045): xfce4-power-manager-WARNING **: 06:30:28.605: Monitor is not DPMS capable
+
+(xfce4-power-manager:30045): GLib-GIO-CRITICAL **: 06:30:28.607: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(xfce4-power-manager:30045): libupower-glib-WARNING **: 06:30:28.887: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(nm-applet:30060): nm-applet-WARNING **: 06:30:28.917: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:30060): nm-applet-WARNING **: 06:30:28.919: Could not connect: No such file or directory
+
+(nm-applet:30060): nm-CRITICAL **: 06:30:28.937: ((src/libnm-client-impl/nm-client.c:4095)): assertion '<dropped>' failed
+
+(nm-applet:30060): nm-CRITICAL **: 06:30:28.938: ((src/libnm-client-impl/nm-client.c:4049)): assertion '<dropped>' failed
+
+(xfce4-power-manager:30045): xfce4-power-manager-CRITICAL **: 06:30:29.019: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:30045): xfce4-power-manager-CRITICAL **: 06:30:29.020: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:30045): xfce4-power-manager-CRITICAL **: 06:30:29.021: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:30045): xfce4-power-manager-WARNING **: 06:30:29.033: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:30045): xfce4-power-manager-WARNING **: 06:30:29.035: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:30045): WARNING **: 06:30:29.035: No outputs have backlight property
+
+(nm-applet:30060): nm-CRITICAL **: 06:30:29.038: ((src/libnm-client-impl/nm-client.c:4908)): assertion '<dropped>' failed
+
+** (xfpm-power-backlight-helper:30125): WARNING **: 06:30:29.048: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:30045): xfce4-power-manager-CRITICAL **: 06:30:29.051: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfdesktop:29998): GVFS-RemoteVolumeMonitor-WARNING **: 06:30:29.256: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 43, in <module>
+    app = BluemanApplet()
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 24, in __init__
+    self.Manager = Manager()
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 28, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+** (xfdesktop:29998): WARNING **: 06:30:29.698: Failed to get system bus: Could not connect: No such file or directory
+
+Thu Jun  2 06:30:30 2022
+ Connections: accepted: 127.0.0.1::56916
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Jun  2 06:30:38 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+[Parent 2553, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.49417) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.49417) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.49445) [GFX1-]: glxtest: process failed (received signal 11)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.408743) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+(xfce4-panel:29988): Gtk-WARNING **: 08:05:41.246: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:29988): Gtk-WARNING **: 08:08:07.364: no trigger event for menu popup
+
+(xfce4-panel:29988): Gtk-WARNING **: 08:08:10.459: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+[Parent 17928, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.1339) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.1339) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.1347) [GFX1-]: glxtest: process failed (received signal 11)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.529647) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xA00001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.710157) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=17.3616) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=9.66479) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=17.9963) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+Thu Jun  2 08:35:35 2022
+ VNCSConnST:  closing 127.0.0.1::56916: Clean disconnection
+ EncodeManager: Framebuffer updates: 1924
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 19 rects, 11.511 kpixels
+ EncodeManager:             304 B (1:152.211 ratio)
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 455 rects, 8.05817 Mpixels
+ EncodeManager:            8.88672 KiB (1:3542.65 ratio)
+ EncodeManager:   ZRLE:
+ EncodeManager:     Bitmap RLE: 219 rects, 29.767 kpixels
+ EncodeManager:                 6.35645 KiB (1:18.6966 ratio)
+ EncodeManager:     Indexed RLE: 754 rects, 3.07652 Mpixels
+ EncodeManager:                  175.755 KiB (1:68.4276 ratio)
+ EncodeManager:     Full Colour: 2.634 krects, 19.244 Mpixels
+ EncodeManager:                  6.2469 MiB (1:11.7563 ratio)
+ EncodeManager:   Total: 4.081 krects, 30.42 Mpixels
+ EncodeManager:          6.43371 MiB (1:18.044 ratio)
+ Connections: closed: 127.0.0.1::56916
+ ComparingUpdateTracker: 644.147 Mpixels in / 28.2881 Mpixels out
+ ComparingUpdateTracker: (1:22.7709 ratio)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=272.528) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+_XSERVTransmkdir: Owner of /tmp/.X11-unix should be set to root
+
+Xvnc TigerVNC 1.12.0 - built 2022-03-25 17:06
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101003, X.Org
+
+
+Thu Jun  2 11:06:02 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'kali:1 (kali)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /home/kali/.vnc/passwd :1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86EmojiPicker
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 3
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfwm4:11678): xfwm4-WARNING **: 11:06:06.245: Unsupported GL renderer (llvmpipe (LLVM 13.0.1, 128 bits)).
+
+(xfsettingsd:11774): libupower-glib-WARNING **: 11:06:06.412: Couldn't connect to proxy: Could not connect: No such file or directory
+libpager-Message: 11:06:07.138: Setting the pager rows returned false. Maybe the setting is not applied.
+
+(wrapper-2.0:11802): GLib-GIO-CRITICAL **: 11:06:07.791: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:11802): GLib-GIO-CRITICAL **: 11:06:07.792: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:11802): GLib-GObject-WARNING **: 11:06:07.792: invalid (NULL) pointer instance
+
+(wrapper-2.0:11802): GLib-GObject-CRITICAL **: 11:06:07.792: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:11802): Gtk-WARNING **: 11:06:07.795: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(xfce4-session:11635): xfce4-session-WARNING **: 11:06:07.850: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:11635): xfce4-session-WARNING **: 11:06:07.902: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:11792): Gtk-WARNING **: 11:06:07.918: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfce4-session:11635): xfce4-session-WARNING **: 11:06:07.926: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:11802): Gtk-WARNING **: 11:06:07.940: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+WARNING: unable to read /proc/cmdline and detect noautomount option
+
+** (xfce4-power-manager:11838): WARNING **: 11:06:08.152: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:11838): WARNING **: 11:06:08.160: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (light-locker:11845): ERROR **: 11:06:08.165: session_id is not set, is /proc mounted with hidepid>0?
+
+(polkit-gnome-authentication-agent-1:11858): polkit-gnome-1-WARNING **: 11:06:08.224: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+** (xiccd:11866): CRITICAL **: 11:06:08.247: Failed to connect to colord: Could not connect: No such file or directory
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:11838): xfce4-power-manager-WARNING **: 11:06:08.501: Monitor is not DPMS capable
+
+(xfce4-power-manager:11838): GLib-GIO-CRITICAL **: 11:06:08.505: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(nm-applet:11854): nm-applet-WARNING **: 11:06:08.806: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:11854): nm-applet-WARNING **: 11:06:08.808: Could not connect: No such file or directory
+
+(nm-applet:11854): nm-CRITICAL **: 11:06:08.823: ((src/libnm-client-impl/nm-client.c:4095)): assertion '<dropped>' failed
+
+(nm-applet:11854): nm-CRITICAL **: 11:06:08.823: ((src/libnm-client-impl/nm-client.c:4049)): assertion '<dropped>' failed
+
+(xfce4-power-manager:11838): libupower-glib-WARNING **: 11:06:08.858: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(nm-applet:11854): nm-CRITICAL **: 11:06:08.929: ((src/libnm-client-impl/nm-client.c:4908)): assertion '<dropped>' failed
+
+(xfce4-power-manager:11838): xfce4-power-manager-CRITICAL **: 11:06:08.994: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:11838): xfce4-power-manager-CRITICAL **: 11:06:08.995: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:11838): xfce4-power-manager-CRITICAL **: 11:06:08.997: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:11838): xfce4-power-manager-WARNING **: 11:06:09.011: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:11838): xfce4-power-manager-WARNING **: 11:06:09.013: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:11838): WARNING **: 11:06:09.014: No outputs have backlight property
+
+** (xfpm-power-backlight-helper:11918): WARNING **: 11:06:09.033: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:11838): xfce4-power-manager-CRITICAL **: 11:06:09.036: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfdesktop:11790): GVFS-RemoteVolumeMonitor-WARNING **: 11:06:09.312: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 43, in <module>
+    app = BluemanApplet()
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 24, in __init__
+    self.Manager = Manager()
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 28, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+** (xfdesktop:11790): WARNING **: 11:06:09.752: Failed to get system bus: Could not connect: No such file or directory
+
+Thu Jun  2 11:06:13 2022
+ Connections: accepted: 127.0.0.1::57656
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Jun  2 11:06:21 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+_XSERVTransmkdir: Owner of /tmp/.X11-unix should be set to root
+
+Xvnc TigerVNC 1.12.0 - built 2022-03-25 17:06
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101003, X.Org
+
+
+Thu Jun  2 11:49:22 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'kali:1 (kali)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /home/kali/.vnc/passwd :1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86EmojiPicker
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 3
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfwm4:30583): xfwm4-WARNING **: 11:49:25.276: Unsupported GL renderer (llvmpipe (LLVM 13.0.1, 128 bits)).
+
+(xfsettingsd:30620): libupower-glib-WARNING **: 11:49:25.481: Couldn't connect to proxy: Could not connect: No such file or directory
+libpager-Message: 11:49:26.407: Setting the pager rows returned false. Maybe the setting is not applied.
+
+(wrapper-2.0:30640): GLib-GIO-CRITICAL **: 11:49:27.043: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:30640): GLib-GIO-CRITICAL **: 11:49:27.043: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:30640): GLib-GObject-WARNING **: 11:49:27.044: invalid (NULL) pointer instance
+
+(wrapper-2.0:30640): GLib-GObject-CRITICAL **: 11:49:27.044: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:30640): Gtk-WARNING **: 11:49:27.044: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(xfce4-session:30540): xfce4-session-WARNING **: 11:49:27.108: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:30632): Gtk-WARNING **: 11:49:27.180: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:30640): Gtk-WARNING **: 11:49:27.276: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+WARNING: unable to read /proc/cmdline and detect noautomount option
+
+** (xfce4-power-manager:30667): WARNING **: 11:49:27.355: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:30667): WARNING **: 11:49:27.362: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (light-locker:30675): ERROR **: 11:49:27.533: session_id is not set, is /proc mounted with hidepid>0?
+
+** (xiccd:30702): CRITICAL **: 11:49:27.636: Failed to connect to colord: Could not connect: No such file or directory
+
+(polkit-gnome-authentication-agent-1:30687): polkit-gnome-1-WARNING **: 11:49:27.686: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(xfce4-session:30540): xfce4-session-WARNING **: 11:49:27.773: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:30667): xfce4-power-manager-WARNING **: 11:49:27.817: Monitor is not DPMS capable
+
+(xfce4-power-manager:30667): GLib-GIO-CRITICAL **: 11:49:27.819: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(xfce4-session:30540): xfce4-session-WARNING **: 11:49:27.827: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(nm-applet:30684): nm-applet-WARNING **: 11:49:28.271: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:30684): nm-applet-WARNING **: 11:49:28.274: Could not connect: No such file or directory
+
+(nm-applet:30684): nm-CRITICAL **: 11:49:28.303: ((src/libnm-client-impl/nm-client.c:4095)): assertion '<dropped>' failed
+
+(nm-applet:30684): nm-CRITICAL **: 11:49:28.304: ((src/libnm-client-impl/nm-client.c:4049)): assertion '<dropped>' failed
+
+(xfce4-power-manager:30667): libupower-glib-WARNING **: 11:49:28.347: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(nm-applet:30684): nm-CRITICAL **: 11:49:28.418: ((src/libnm-client-impl/nm-client.c:4908)): assertion '<dropped>' failed
+
+(xfce4-power-manager:30667): xfce4-power-manager-CRITICAL **: 11:49:28.461: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:30667): xfce4-power-manager-CRITICAL **: 11:49:28.465: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:30667): xfce4-power-manager-CRITICAL **: 11:49:28.473: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:30667): xfce4-power-manager-WARNING **: 11:49:28.492: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:30667): xfce4-power-manager-WARNING **: 11:49:28.494: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:30667): WARNING **: 11:49:28.497: No outputs have backlight property
+
+** (xfpm-power-backlight-helper:30757): WARNING **: 11:49:28.518: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:30667): xfce4-power-manager-CRITICAL **: 11:49:28.520: Unable to get system bus connection : Could not connect: No such file or directory
+
+Thu Jun  2 11:49:28 2022
+ Connections: accepted: 127.0.0.1::58748
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 43, in <module>
+    app = BluemanApplet()
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 24, in __init__
+    self.Manager = Manager()
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 28, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+(xfdesktop:30633): GVFS-RemoteVolumeMonitor-WARNING **: 11:49:29.148: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:30633): WARNING **: 11:49:29.686: Failed to get system bus: Could not connect: No such file or directory
+
+Thu Jun  2 11:49:35 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+(xfce4-panel:30623): Gtk-WARNING **: 11:49:42.850: no trigger event for menu popup
+
+(xfce4-panel:30623): Gtk-WARNING **: 11:49:48.322: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:30623): Gtk-WARNING **: 11:50:18.960: no trigger event for menu popup
+
+(xfce4-panel:30623): Gtk-WARNING **: 11:50:21.138: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:30623): Gtk-WARNING **: 12:30:37.717: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:30623): Gtk-WARNING **: 12:40:32.770: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:30623): Gtk-WARNING **: 12:41:08.872: no trigger event for menu popup
+
+(xfce4-panel:30623): Gtk-WARNING **: 12:41:12.370: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+Thu Jun  2 12:50:35 2022
+ VNCSConnST:  closing 127.0.0.1::58748: Clean disconnection
+ EncodeManager: Framebuffer updates: 2141
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 30 rects, 19.06 kpixels
+ EncodeManager:             480 B (1:159.583 ratio)
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 851 rects, 222.391 kpixels
+ EncodeManager:            16.6211 KiB (1:52.8658 ratio)
+ EncodeManager:   ZRLE:
+ EncodeManager:     Bitmap RLE: 667 rects, 169.75 kpixels
+ EncodeManager:                 22.0078 KiB (1:30.4847 ratio)
+ EncodeManager:     Indexed RLE: 1.447 krects, 2.23523 Mpixels
+ EncodeManager:                  209.371 KiB (1:41.7839 ratio)
+ EncodeManager:     Full Colour: 4.714 krects, 36.0328 Mpixels
+ EncodeManager:                  12.03 MiB (1:11.4304 ratio)
+ EncodeManager:   Total: 7.709 krects, 38.6792 Mpixels
+ EncodeManager:          12.2726 MiB (1:12.0298 ratio)
+ Connections: closed: 127.0.0.1::58748
+ ComparingUpdateTracker: 607.994 Mpixels in / 38.3074 Mpixels out
+ ComparingUpdateTracker: (1:15.8714 ratio)
+
+Thu Jun  2 12:51:09 2022
+ Connections: accepted: 127.0.0.1::59484
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Jun  2 12:51:16 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 6 (8bpp) rgb222
+
+Thu Jun  2 12:51:34 2022
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Thu Jun  2 12:51:35 2022
+ VNCSConnST:  Client pixel format depth 6 (8bpp) rgb222
+
+Thu Jun  2 12:51:47 2022
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+pkexec must be setuid root
+pkexec must be setuid root
+[Parent 21603, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18211) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.18211) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.1822) [GFX1-]: glxtest: process failed (received signal 11)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.426849) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.768236) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(xfce4-panel:30623): Gtk-WARNING **: 13:01:29.051: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+pkexec must be setuid root
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+Thu Jun  2 15:00:22 2022
+ VNCSConnST:  closing 127.0.0.1::59484: Clean disconnection
+ EncodeManager: Framebuffer updates: 2755
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 43 rects, 26.71 kpixels
+ EncodeManager:             688 B (1:156.041 ratio)
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 699 rects, 2.40605 Mpixels
+ EncodeManager:            13.6465 KiB (1:689.295 ratio)
+ EncodeManager:   ZRLE:
+ EncodeManager:     Bitmap RLE: 655 rects, 1.58469 Mpixels
+ EncodeManager:                 26.2529 KiB (1:221.468 ratio)
+ EncodeManager:     Indexed RLE: 1.588 krects, 7.21568 Mpixels
+ EncodeManager:                  325.267 KiB (1:42.3608 ratio)
+ EncodeManager:     Full Colour: 5.153 krects, 40.9992 Mpixels
+ EncodeManager:                  14.0127 MiB (1:11.1655 ratio)
+ EncodeManager:   Total: 8.138 krects, 52.2323 Mpixels
+ EncodeManager:          14.37 MiB (1:12.8657 ratio)
+ Connections: closed: 127.0.0.1::59484
+ ComparingUpdateTracker: 848.422 Mpixels in / 43.7744 Mpixels out
+ ComparingUpdateTracker: (1:19.3817 ratio)
+
+Thu Jun  2 15:06:23 2022
+ Connections: accepted: 127.0.0.1::35334
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Jun  2 15:06:29 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+(Thunar:30627): GVFS-RemoteVolumeMonitor-WARNING **: 15:06:34.712: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+TerminalDisplay: handling urls. It can be broken. Report any errors, please
+
+Thu Jun  2 15:08:07 2022
+ VNCSConnST:  closing 127.0.0.1::35334: Clean disconnection
+ EncodeManager: Framebuffer updates: 467
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 2 rects, 1.792 kpixels
+ EncodeManager:             32 B (1:224.75 ratio)
+ EncodeManager:   RRE:
+ EncodeManager:     Solid: 122 rects, 167.361 kpixels
+ EncodeManager:            2.38281 KiB (1:274.962 ratio)
+ EncodeManager:   ZRLE:
+ EncodeManager:     Bitmap RLE: 93 rects, 17.919 kpixels
+ EncodeManager:                 3.10449 KiB (1:22.8978 ratio)
+ EncodeManager:     Indexed RLE: 558 rects, 1.2113 Mpixels
+ EncodeManager:                  72.8467 KiB (1:65.0433 ratio)
+ EncodeManager:     Full Colour: 906 rects, 10.1942 Mpixels
+ EncodeManager:                  2.74189 MiB (1:14.1866 ratio)
+ EncodeManager:   Total: 1.681 krects, 11.5926 Mpixels
+ EncodeManager:          2.81842 MiB (1:15.6973 ratio)
+ Connections: closed: 127.0.0.1::35334
+ ComparingUpdateTracker: 201.667 Mpixels in / 9.28665 Mpixels out
+ ComparingUpdateTracker: (1:21.7159 ratio)
+
+Thu Jun  2 15:08:09 2022
+ Connections: accepted: 127.0.0.1::35348
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+
+Thu Jun  2 15:08:17 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+
+(xfce4-panel:30623): Gtk-WARNING **: 16:18:33.175: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:30623): Gtk-WARNING **: 16:55:31.799: no trigger event for menu popup
+
+(xfce4-panel:30623): Gtk-WARNING **: 16:55:34.587: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:30623): Gtk-WARNING **: 16:59:00.834: no trigger event for menu popup
+
+(xfce4-panel:30623): Gtk-WARNING **: 16:59:03.372: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+
+(xfce4-panel:30623): Gtk-WARNING **: 17:22:38.854: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:30623): Gtk-WARNING **: 17:22:42.674: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QXcbClipboard: Unable to receive an event from the clipboard manager in a reasonable time
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+Undecodable sequence: \001b(hex)[22;0;0t
+Undecodable sequence: \001b(hex)[23;0;0t
+
+(xfce4-panel:30623): Gtk-WARNING **: 17:46:16.273: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+_XSERVTransmkdir: Owner of /tmp/.X11-unix should be set to root
+
+Xvnc TigerVNC 1.12.0 - built 2022-03-25 17:06
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101003, X.Org
+
+
+Fri Jun  3 03:51:46 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'kali:1 (kali)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VncAuth -passwd /home/kali/.vnc/passwd :1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+The XKEYBOARD keymap compiler (xkbcomp) reports:
+> Warning:          Could not resolve keysym XF86EmojiPicker
+Errors from xkbcomp are not fatal to the X server
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x300015b510 for event 3
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+
+(xfwm4:28351): xfwm4-WARNING **: 03:51:49.114: Unsupported GL renderer (llvmpipe (LLVM 13.0.1, 128 bits)).
+
+(xfsettingsd:28383): libupower-glib-WARNING **: 03:51:49.289: Couldn't connect to proxy: Could not connect: No such file or directory
+libpager-Message: 03:51:50.242: Setting the pager rows returned false. Maybe the setting is not applied.
+
+(wrapper-2.0:28420): GLib-GIO-CRITICAL **: 03:51:50.836: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:28420): GLib-GIO-CRITICAL **: 03:51:50.837: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:28420): GLib-GObject-WARNING **: 03:51:50.837: invalid (NULL) pointer instance
+
+(wrapper-2.0:28420): GLib-GObject-CRITICAL **: 03:51:50.838: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:28420): Gtk-WARNING **: 03:51:50.838: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(xfce4-session:28293): xfce4-session-WARNING **: 03:51:50.954: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(wrapper-2.0:28413): Gtk-WARNING **: 03:51:50.992: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:28420): Gtk-WARNING **: 03:51:51.051: Negative content width -1 (allocation 1, extents 1x1) while allocating gadget (node button, owner GtkToggleButton)
+WARNING: unable to read /proc/cmdline and detect noautomount option
+
+** (xfce4-power-manager:28456): WARNING **: 03:51:51.233: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.freedesktop.PowerManagement': no such name
+
+
+** (xfce4-power-manager:28456): WARNING **: 03:51:51.238: Failed to get name owner: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Could not get owner of name 'org.xfce.PowerManager': no such name
+
+
+** (light-locker:28466): ERROR **: 03:51:51.279: session_id is not set, is /proc mounted with hidepid>0?
+
+** (xiccd:28505): CRITICAL **: 03:51:51.356: Failed to connect to colord: Could not connect: No such file or directory
+
+(polkit-gnome-authentication-agent-1:28475): polkit-gnome-1-WARNING **: 03:51:51.438: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+(xfce4-session:28293): xfce4-session-WARNING **: 03:51:51.559: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:28293): xfce4-session-WARNING **: 03:51:51.587: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:28456): xfce4-power-manager-WARNING **: 03:51:51.595: Monitor is not DPMS capable
+
+(xfce4-power-manager:28456): GLib-GIO-CRITICAL **: 03:51:51.598: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(nm-applet:28471): nm-applet-WARNING **: 03:51:52.025: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:28471): nm-applet-WARNING **: 03:51:52.028: Could not connect: No such file or directory
+
+(nm-applet:28471): nm-CRITICAL **: 03:51:52.058: ((src/libnm-client-impl/nm-client.c:4095)): assertion '<dropped>' failed
+
+(nm-applet:28471): nm-CRITICAL **: 03:51:52.059: ((src/libnm-client-impl/nm-client.c:4049)): assertion '<dropped>' failed
+
+(xfce4-power-manager:28456): libupower-glib-WARNING **: 03:51:52.084: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(nm-applet:28471): nm-CRITICAL **: 03:51:52.177: ((src/libnm-client-impl/nm-client.c:4908)): assertion '<dropped>' failed
+
+(xfce4-power-manager:28456): xfce4-power-manager-CRITICAL **: 03:51:52.255: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:28456): xfce4-power-manager-CRITICAL **: 03:51:52.257: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:28456): xfce4-power-manager-CRITICAL **: 03:51:52.260: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:28456): xfce4-power-manager-WARNING **: 03:51:52.278: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:28456): xfce4-power-manager-WARNING **: 03:51:52.281: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:28456): WARNING **: 03:51:52.284: No outputs have backlight property
+
+** (xfpm-power-backlight-helper:28595): WARNING **: 03:51:52.313: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:28456): xfce4-power-manager-CRITICAL **: 03:51:52.321: Unable to get system bus connection : Could not connect: No such file or directory
+
+Fri Jun  3 03:51:52 2022
+ Connections: accepted: 127.0.0.1::51650
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 43, in <module>
+    app = BluemanApplet()
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 24, in __init__
+    self.Manager = Manager()
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 28, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+(xfdesktop:28412): GVFS-RemoteVolumeMonitor-WARNING **: 03:51:53.350: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:28412): WARNING **: 03:51:53.722: Failed to get system bus: Could not connect: No such file or directory
+
+Fri Jun  3 03:52:27 2022
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+(xfce4-panel:28389): Gtk-WARNING **: 03:52:41.883: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:28389): Gtk-WARNING **: 04:32:43.351: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:28389): Gtk-WARNING **: 04:40:50.583: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:28389): Gtk-WARNING **: 04:42:27.602: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+[Parent 22515, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.54527) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.54527) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.54544) [GFX1-]: glxtest: process failed (received signal 11)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.504181) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=1.0169) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(Thunar:28405): GVFS-RemoteVolumeMonitor-WARNING **: 04:51:17.522: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+pkexec must be setuid root
+[Parent 23220, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.714266) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.714266) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.714349) [GFX1-]: glxtest: process failed (received signal 11)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.596161) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 23220, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.827481) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=3.18537) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x5B0013,name=PHttpChannel::Msg_DeleteSelf) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 24681, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.825256) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.825256) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.825341) [GFX1-]: glxtest: process failed (received signal 11)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.492903) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x39003C,name=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+[Parent 24681, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390061,name=PContent::Msg_GMPsChanged) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x6B002F,name=PNecko::Reply_GetExtensionFD) Channel error: cannot send/recv
+
+[Parent 24681, Main Thread] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file ./ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.947445) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=3.68893) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 25465, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.70407) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=0.70407) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=0.704152) [GFX1-]: glxtest: process failed (received signal 11)
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.499603) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=0.78352) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=19.1451) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x23007E,name=PBrowser::Msg_RealMouseMoveEvent) Channel error: cannot send/recv
+
+Crash Annotation GraphicsCriticalError: |[C0][GFX1]: no fonts - init: 1 fonts: 72 loader: 0 (t=27.8451) [GFX1]: no fonts - init: 1 fonts: 72 loader: 0
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 27509, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.03144) [GFX1-]: No GPUs detected via PCI
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: No GPUs detected via PCI (t=1.03144) |[1][GFX1-]: glxtest: process failed (received signal 11) (t=1.03158) [GFX1-]: glxtest: process failed (received signal 11)
+[Child 27601, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+[Child 27709, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+[Child 27740, Main Thread] WARNING: read-only dup failed (Permission denied); not using memfd: file ./ipc/chromium/src/base/shared_memory_posix.cc:243
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+(xfce4-panel:28389): Gtk-WARNING **: 05:09:37.504: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:28389): Gtk-WARNING **: 05:09:38.961: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:28389): Gtk-WARNING **: 05:18:15.771: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:28389): Gtk-WARNING **: 05:18:18.562: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:28389): Gtk-WARNING **: 05:20:26.188: no trigger event for menu popup
+
+(xfce4-panel:28389): Gtk-WARNING **: 05:20:28.093: no trigger event for menu popup
+
+(xfce4-panel:28389): Gtk-WARNING **: 05:20:29.774: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
+
+(xfce4-panel:28389): Gtk-WARNING **: 06:23:20.606: no trigger event for menu popup
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-kali'
